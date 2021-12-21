@@ -1,0 +1,121 @@
+.find-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  width: 25%;
+  text-align: center;
+}
+
+.find-icons__icon span {
+  margin-top: 20px;
+}
+
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 25px 0px;
+  margin-bottom: 20px;
+}
+
+.recommended-friends__title {
+  color: var(--font-color);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.opne-chat {
+  box-sizing: border-box;
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.open-chat__header h4 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.open-chat__header span {
+  color: var(--font-color);
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-post__column {
+  line-height: 30px;
+}
+
+.open-post__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+.open-post__member-status {
+  color: hotpink;
+}
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.open-post__member-count {
+  opacity: 0.6;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 5px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.open-post__image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.open-post__image {
+  position: relative;
+}
+.open-post__heart-count {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  padding: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  color: white;
+}
+.open-post__heart-count span {
+  font-size: 12px;
+  margin-left: 5px;
+}

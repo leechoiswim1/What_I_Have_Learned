@@ -42,7 +42,7 @@
 }
 
 #login-form input ::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--font-color);
 }
 
 #login-form input[type="submit"] {

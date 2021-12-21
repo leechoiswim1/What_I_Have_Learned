@@ -5,14 +5,28 @@
   align-items: center;
   justify-content: center;
 }
+
 .alt-header__title {
-  font-size: 32px;
+  font-size: 28px;
   margin: 0 auto;
 }
 
 .alt-header__column:first-child {
   margin-right: auto;
+  width: 25%;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
+  width: 50%;
 }
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.alt-header__column__margin-left {
+  margin-left: 20px;
 }

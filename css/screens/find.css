@@ -99,3 +99,24 @@
   font-size: 12px;
   margin-left: 5px;
 }
+
+@keyframes heartBeat {
+  0% {
+    transform: 0;
+    color: white;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+    color: tomato;
+  }
+  100% {
+    opacity: 0.5;
+    color: white;
+  }
+}
+
+.open-post__heart-count .fa-heart {
+  will-change: transform;
+  animation: heartBeat 1s ease-in-out infinite;
+}

@@ -77,3 +77,9 @@
 .user-component_message {
   color: rgba(0, 0, 0, 0.7);
 }
+
+.user-component > a {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

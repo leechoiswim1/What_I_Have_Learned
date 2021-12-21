@@ -22,3 +22,16 @@
 .screen-header__notification {
   position: absolute;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}

@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -31,20 +31,51 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html"
-        <i class="fas fa-angle-left fa-3x"></i></a>
+        <a href="chats.html"> <i class="fas fa-angle-left fa-3x"></i></a>
       </div>
       <div class="alt-header__column">
         <h1 class="alt-header__title">kim hee-jin</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-2x"></i>
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span class="alt-header__column__margin-left"
+          ><i class="fas fa-bars fa-lg"></i
+        ></span>
       </div>
     </header>
 
-    <main class="main-screen">
-     
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, December 21, 2021</div>
+    <div class="message-row">
+      <img src="https://pbs.twimg.com/profile_images/1427411551485513730/xXXDQfVf.jpg"/ >
+      <div class="message-row_content">
+        <span class="message__author">kim hee-jin</span>
+        <div class="message__info">
+          <span class="message__bubble">Hi!</span>
+          <span class="message__time">21:27</span>
+        </div>
+      </div>
+    </img></div>
+      <div class="message-row my__message">
+      <div class="message-row_content">
+        <div class="message__info">
+          <span class="message__bubble ">What's up!</span>
+          <span class="message__time ">01:37</span>
+        </div>
+      </div>
+ </div>
     </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..."/>
+        <i class="far fa-smile fa-lg""></i>
+        <button>  <i class="fas fa-arrow-up "></i></button>
+      
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"

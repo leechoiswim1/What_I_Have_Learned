@@ -15,7 +15,7 @@
   margin-left: 25px;
 }
 
-.screen-header__icons span:nth-child(2) {
+.screen-header__icons span:last-child {
   position: relative;
 }
 

@@ -1,19 +1,19 @@
 .user-component {
   display: flex;
-  width: 100%;
+
   justify-content: space-between;
   margin-bottom: 15px;
 }
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
 .user-component__column:last-child {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.user-component__column:first-child {
-  display: flex;
-  align-items: center;
 }
 
 .user-component__avatar {
@@ -26,6 +26,17 @@
 .user-component__title {
   font-size: 22px;
   font-weight: 600;
+}
+
+.user-component__subtext {
+  display: flex;
+  align-items: center;
+}
+.user-component__subtext i {
+  margin-top: 10px;
+
+  color: hotpink;
+  text-align: center;
 }
 
 .user-component__subtitle {
@@ -61,4 +72,8 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component_message {
+  color: rgba(0, 0, 0, 0.7);
 }

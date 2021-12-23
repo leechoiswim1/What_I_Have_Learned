@@ -1,3 +1,105 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
 .hidden {
   display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+  background-image: cover;
+}
+
+#clock {
+  color: white;
+  font-size: 100px;
+  text-shadow: 2px 2px 2px gray;
+  text-align: center;
+}
+
+#greeting {
+  color: white;
+  font-size: 100px;
+  text-shadow: 2px 2px 2px gray;
+  text-align: center;
+}
+
+#todo-form {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+#todo-form input {
+  width: 50%;
+  max-width: 500px;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 20px;
+  outline: none;
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+#todo-list {
+  list-style: none;
+  line-height: 30px;
+  width: 50%;
+  max-width: 500px;
+  text-align: center;
+}
+#todo-list span {
+  font-size: 25px;
+  border-radius: 30px;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.5);
+}
+
+#todo-list button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#quote {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#weather {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  color: white;
+  padding: 10px;
+}
+#weather span {
+  margin-left: 10px;
 }

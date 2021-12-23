@@ -9,3 +9,4 @@ function setClock() {
 }
 
 setInterval(setClock, 1000);
+setClock();

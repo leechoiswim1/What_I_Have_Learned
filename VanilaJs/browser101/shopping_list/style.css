@@ -1,0 +1,107 @@
+body {
+  width: 100vw;
+  font-family: "Jua", sans-serif;
+  background: rgb(209, 209, 209);
+}
+* {
+  box-sizing: border-box;
+}
+
+.shopping_section {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  -webkit-box-shadow: 8px 5px 9px 0px #696969;
+  box-shadow: 8px 5px 9px 0px #696969;
+  border-radius: 20px;
+}
+
+.shopping_head__header {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(184, 182, 221, 1) 60%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0px 0px;
+}
+.shopping_head__title {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.shopping_body__body {
+  margin: auto;
+  height: 700px;
+  box-sizing: border-box;
+  background-color: white;
+  overflow-y: auto;
+}
+.shopping_body__list {
+  padding: 0px;
+}
+
+.shopping_body__list li {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  font-size: 25px;
+  margin: 10px auto;
+  border-bottom: 1px solid rgb(118, 176, 199);
+}
+.shopping_body__list li button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.shopping_body__list li button i {
+  color: tomato;
+}
+.shopping_form__form {
+  box-sizing: border-box;
+
+  margin: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(184, 182, 221, 1) 60%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 0px 0px 20px 20px;
+  box-sizing: border-box;
+}
+
+.shopping_form__input {
+  width: 90%;
+  margin: auto;
+  height: 40px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+.shopping_form__button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  background: black;
+}
+.shopping_form__button i {
+  color: white;
+  font-size: 40px;
+}

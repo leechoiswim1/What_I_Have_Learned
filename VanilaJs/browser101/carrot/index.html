@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Carrot!</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="main-background">
+      <header class="header">
+        <button class="header-playbtn">
+          <i class="fas fa-play fa-4x"></i>
+        </button>
+        <div class="header-timer">
+          <span class="header-timer__time">0:0</span>
+        </div>
+        <div class="header-counter">
+          <span class="header-counter__number">10</span>
+        </div>
+      </header>
+      <div class="body-background">
+        <div class="body-randam__carrot"></div>
+        <div class="body-randam__bug"></div>
+      </div>
+
+      <div class="result-box">
+        <button class="result-box__btn">
+          <i class="fas fa-undo fa-5x"></i>
+        </button>
+        <p class="result-box__text">
+          YOU LOST<span class="result-box__icon">💩</span>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

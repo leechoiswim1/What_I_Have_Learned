@@ -110,3 +110,12 @@ body {
   font-weight: 500;
   margin-left: 10px;
 }
+
+.main-bgmbtn {
+  background: none;
+  border: none;
+}
+.main-bgmbtn i {
+  color: black;
+  margin: 10px;
+}

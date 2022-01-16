@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+.section {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.wrapper img {
+  border-radius: 30px;
+}
+.wrapper:hover {
+  animation: scale-up-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+}

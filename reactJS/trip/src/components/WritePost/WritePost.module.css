@@ -1,0 +1,89 @@
+@value tripsYellow from '../common/colors.css';
+.overlay {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.post_box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 20px;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  z-index: 20;
+}
+
+.form {
+  position: relative;
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea {
+  width: 90%;
+  height: 150px;
+  margin: 20px auto;
+  border: 2px solid tripsYellow;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
+.button {
+  width: 80px;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background: tripsYellow;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+@media (max-width: 768px) {
+  .post_box {
+    max-width: 640px;
+    max-height: 480px;
+  }
+}
+
+@media (max-width: 450px) {
+  .post_box {
+    width: 95%;
+    max-height: 500px;
+  }
+}

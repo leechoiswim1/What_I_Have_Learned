@@ -1,0 +1,45 @@
+@value tripsYellow from '../common/colors.css';
+
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.inner {
+  width: 400px;
+  margin: auto;
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.first_span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #efefef;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.sec_span {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: tripsYellow;
+  font-size: 18px;
+  font-weight: bold;
+}
+.text {
+  position: absolute;
+  font-weight: 500;
+  font-size: 20px;
+  bottom: 0px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-style: italic;
+}

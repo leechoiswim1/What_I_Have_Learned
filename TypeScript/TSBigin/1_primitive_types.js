@@ -1,13 +1,13 @@
-var myInfo = {
+let myInfo = {
     name: "sooim",
     age: 33,
     origin: "seoul",
 };
-var myFavoriteMusic = {
+let myFavoriteMusic = {
     singer: "arianaGrande",
     song: "7rings",
 };
-var project = {
+let project = {
     member: ["kim", "park"],
     days: 30,
     started: true,

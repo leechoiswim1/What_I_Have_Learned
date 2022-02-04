@@ -7,7 +7,8 @@ function getSum(x) {
 }
 //파라미터가 옵션인 경우 = undefined랑 같다.
 function twice(x) {
-    return x * 2;
+    if (x != null)
+        return x * 2;
 }
 // function twice(x: number |undefined): number {
 //     return x * 2;
@@ -24,7 +25,7 @@ function countDigit(x) {
     return x.toString().length;
 }
 function merriagePossibility(income, house, attractive) {
-    var score = 0;
+    let score = 0;
     score += income;
     if (house) {
         score += 500;

@@ -24,7 +24,6 @@ let grade: string | number;
 // string+1 (가능) / number+1(가능)  / string|number타입+1 (불가)
 
 let park: string;
-park + 1;
 
 let user: string = "kim";
 let age: undefined | number = undefined;

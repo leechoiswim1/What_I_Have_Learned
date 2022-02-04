@@ -1,7 +1,7 @@
 //Literal Types
 //newName에는 kim만 들어갈수있다.
-var newName;
-var itsMe;
+let newName;
+let itsMe;
 function newFunc(a) {
     console.log(a);
 }
@@ -18,7 +18,7 @@ function rockPaperScissors(a) {
 //obj의 자료를 완전히 잠가놓고 싶을때 as const 를 씀.
 //1) obj value값을 그대로 타입으로 지정
 //2) obj 속성들에 모두 readonly 붙여줌
-var documents = { name: "kim" };
+let documents = { name: "kim" };
 // let documents= { readonly name: "kim" };
 // let documents: { name: "kim" } = { name: "kim" };
 function myFunc3(a) { }

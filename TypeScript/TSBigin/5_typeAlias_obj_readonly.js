@@ -1,16 +1,16 @@
 // let animal:string|number|undefined;
-var animal = 123;
-var animal2 = { name: "kim", age: 20 };
-var region = { region: "seoul" };
+let animal = 123;
+let animal2 = { name: "kim", age: 20 };
+const region = { region: "seoul" };
 region.region = "busan";
-var friend = {
+const friend = {
     name: "amber",
 };
 // type Friend2Type = { name: string|undefined };
-var friend2 = {
+const friend2 = {
     name: "amber",
 };
-var singup = {
+let singup = {
     name: "kim",
     phone: 123,
     minor: true,

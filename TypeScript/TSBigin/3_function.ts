@@ -8,8 +8,8 @@ function getSum(x: number): void {
 }
 
 //파라미터가 옵션인 경우 = undefined랑 같다.
-function twice(x?: number): number {
-  return x * 2;
+function twice(x?: number): number | void {
+  if (x != null) return x * 2;
 }
 // function twice(x: number |undefined): number {
 //     return x * 2;

@@ -1,1 +1,1 @@
-export {};
+declare let plant: Plant;
